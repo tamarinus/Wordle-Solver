@@ -3,6 +3,7 @@ Dit project implementeert en vergelijkt twee algoritmes voor het oplossen van Ne
 
 # Installatie:
 git clone https://github.com/tamarinus/Wordle-Solver.git
+
 cd Wordle-Solver
 
 # Gebruik:
