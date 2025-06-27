@@ -1,7 +1,7 @@
 # Wordle-Solver
 Dit project implementeert en vergelijkt twee algoritmes voor het oplossen van Nederlandse Wordle-puzzels: een naïeve methode en Monte Carlo Tree Search (MCTS).
 
-#Installatie:
+# Installatie:
 git clone https://github.com/tamarinus/Wordle-Solver.git
 cd Wordle-Solver
 
