@@ -1,23 +1,23 @@
 # Wordle-Solver
 Dit project implementeert en vergelijkt twee algoritmes voor het oplossen van Nederlandse Wordle-puzzels: een naïeve methode en Monte Carlo Tree Search (MCTS).
 
-## Gebruik:
+# Gebruik:
 1. Installeer het bestand en wordle_woorden.txt
 2. Pas het pad aan: Verander pad= "pad_naar_woordenlijst.txt"
 3. Run de code:
    woordenlijst = laad_woordenlijst(pad)
 
    ## voorbeelden:
-   # Test naïeve methode (100 spellen)
+   ### Test naïeve methode (100 spellen)
    evalueer("naief", woordenlijst, n=100)
 
-   # Test MCTS (100 spellen) 
+   ### Test MCTS (100 spellen) 
    evalueer("mcts", woordenlijst, n=100)
 
-   # Test 1 spel met specifiek woord als geheim woord
+   ### Test 1 spel met specifiek woord als geheim woord
    evalueer("naief", woordenlijst, n=1, geheim="hallo")
 
-   # MCTS met aangepast startwoord
+   ### MCTS met aangepast startwoord
    evalueer("mcts", woordenlijst, n=50, eerste_gok="schot")
 
 
